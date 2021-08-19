@@ -1,4 +1,4 @@
-require "octokit"
+require "octokit/core"
 require "json"
 
 # Each Action has an event passed to it.
