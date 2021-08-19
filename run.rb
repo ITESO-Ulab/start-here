@@ -4,8 +4,8 @@ require "json"
 # Each Action has an event passed to it.
 event = JSON.parse(File.read(ENV['GITHUB_EVENT_PATH']))
 comment = event["comment"]["body"]
-org = "github-craftwork"
-team_id = 3490252
+org = "ITESO-Ulab"
+team_id = 5046824
 commenter = event["comment"]["user"]["login"]
 
 puts "-------------------------------------------------"
