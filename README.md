@@ -1,2 +1,2 @@
 # Start Here
-[![Greetings](https://github.com/ITESO-Ulab/start-here/actions/workflows/Saludos.yml/badge.svg)](https://github.com/ITESO-Ulab/start-here/actions/workflows/Saludos.yml)
+[![Auto approve and merge](https://github.com/ITESO-Ulab/start-here/actions/workflows/Asistencia.yml/badge.svg?branch=master&event=status)](https://github.com/ITESO-Ulab/start-here/actions/workflows/Asistencia.yml)
