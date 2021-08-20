@@ -1,6 +1,0 @@
-linea 1
-
-linea 3
-Hola, esta es una prueba de texto
-
-Prueba de texto 
