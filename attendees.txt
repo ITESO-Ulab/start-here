@@ -1,4 +1,3 @@
-# Add ur username bellow, from a new branch and create a pull request.
+# Add ur GH username bellow, from a new branch and create a pull request.
 
 @LuisFerGRomo
-@JuanMartinez
