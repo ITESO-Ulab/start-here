@@ -1,7 +1,5 @@
 name: Saludos
-
 on: [pull_request, issues]
-
 jobs:
   greeting:
     runs-on: ubuntu-latest
