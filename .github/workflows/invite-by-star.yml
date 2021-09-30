@@ -22,5 +22,6 @@ jobs:
           run: |
             python ./.github/workflows/AutoInviteToOrgByStar.py
           env:
-            MY_GITHUB_KEY: ${{ secrets.PAP_TEAM_ID }}
+            MY_GITHUB_KEY: ${{ secrets.GITHUB_TOKEN }}
             COMMUNITY_TEAM_ID: ${{ secrets.COMMUNITY_TEAM_ID }}
+            
