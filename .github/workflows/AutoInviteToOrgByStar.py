@@ -14,9 +14,9 @@ if os.getenv('CI'):
 else:
     print('Maybe running locally?')
 
-print("Environ: ")
+print("Environ:")
 print(os.environ)
-print("Prefix: ")
+print("Prefix:")
 print(sys.prefix)
 
 MY_GITHUB_KEY = os.environ['MY_GITHUB_KEY']
