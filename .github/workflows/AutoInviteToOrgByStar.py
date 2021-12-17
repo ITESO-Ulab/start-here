@@ -41,7 +41,7 @@ payload = json.dumps({
 })
 headers = {
   'Accept': 'application/vnd.github.v3+json',
-  'Authorization': 'token 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',
+  'Authorization': 'token '+MY_GITHUB_KEY,
   'Content-Type': 'application/json'
 }
 
