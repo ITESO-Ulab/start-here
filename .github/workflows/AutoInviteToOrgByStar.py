@@ -33,7 +33,8 @@ USERNAME = data['sender']['login']
 print('Send invite for the @'+USERNAME)
 
 # TODO: check user already joined or no....
-url = 'https://api.github.com/teams/'+COMMUNITY_TEAM_ID+'/memberships/' + USERNAME
+# FIXME url = 'https://api.github.com/teams/'+COMMUNITY_TEAM_ID+'/memberships/' + USERNAME
+url = 'https://api.github.com/orgs/ITESO-Ulab/community/memberships/'+USERNAME
 payload=''
 headers = {
     'Accept': 'application/vnd.github.v3+json',
