@@ -25,7 +25,8 @@ COMMUNITY_TEAM_ID = os.environ['COMMUNITY_TEAM_ID']
 file = open(os.environ['GITHUB_EVENT_PATH'])
 data = json.load(file)
 
-print("Data: "+data)
+print("Data: ")
+print(data)
 
 USERNAME = data['sender']['login']
 
