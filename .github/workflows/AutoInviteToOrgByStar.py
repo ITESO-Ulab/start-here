@@ -33,8 +33,8 @@ USERNAME = data['sender']['login']
 print('Send invite for the @'+USERNAME)
 
 # TODO: check user already joined or no....
-# FIXME url = 'https://api.github.com/teams/'+COMMUNITY_TEAM_ID+'/memberships/' + USERNAME
-url = "https://api.github.com/orgs/ITESO-Ulab/teams/community/memberships/"+USERNAME
+url = 'https://api.github.com/teams/'+COMMUNITY_TEAM_ID+'/memberships/' + USERNAME
+#url = "https://api.github.com/orgs/ITESO-Ulab/teams/community/memberships/"+USERNAME
 
 payload = json.dumps({
   "role": "member"
@@ -42,7 +42,8 @@ payload = json.dumps({
 headers = {
   'Accept': 'application/vnd.github.v3+json',
   'Authorization': 'token '+MY_GITHUB_KEY,
-  'Content-Type': 'application/json'
+  'Content-Type': 'application/json',
+  'Cookie': '_octo=GH1.1.1312574687.1613761866; logged_in=no',
 }
 
 response = requests.request("PUT", url, headers=headers, data=payload)
