@@ -38,8 +38,9 @@ url = "https://api.github.com/orgs/ITESO-Ulab/teams/community/memberships/"+USER
 payload= json.dumps({"role":"member"})
 headers = {
     'Accept': 'application/vnd.github.v3+json',
-    'Authorization': 'token '+MY_GITHUB_KEY,
-    'Content-Type': 'application/json'
+    'Authorization': 'token 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',
+    'Content-Type': 'application/json',
+    'Cookie': '_octo=GH1.1.1312574687.1613761866; logged_in=no'
 }
 response = requests.request("PUT", url, headers=headers, data=payload)
 print(response.text)
